@@ -12,3 +12,4 @@ Helm chart can be deployed with default values in your local or remote Kubernete
 helm install flask-app chart/
 ```
 Note: Make sure kubectl is pointing to correct cluster context.
+For Jenkins deployment i have assumed that the agent running build has necessary binary files installed and Kubernetes context set properly 
