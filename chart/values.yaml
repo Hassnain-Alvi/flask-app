@@ -1,0 +1,9 @@
+service:
+  type: ClusterIP
+  port: 80
+  app_port: 5000
+image:
+  repository: hassnainalvi021/flask-app
+  tag: latest
+deployment:
+  replicas: 1
